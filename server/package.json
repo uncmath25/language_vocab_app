@@ -1,0 +1,24 @@
+{
+  "name": "language_learning_app_server",
+  "version": "1.0.0",
+  "description": "Provides server for the language learning app",
+  "author": "Colton Willig <coltonwillig@gmail.com>",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "watch": "nodemon --watch src src/server.js"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.1",
+    "express-pino-logger": "7.0.0",
+    "pino": "8.4.0",
+    "dotenv": "16.0.1",
+    "knex": "2.2.0",
+    "mysql": "2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.19"
+  }
+}
